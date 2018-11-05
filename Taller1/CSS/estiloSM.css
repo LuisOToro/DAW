@@ -3,25 +3,26 @@
 	
 }
 
-label.[class^="clase"]{
+[class^="clase"]{
 	border: 2pt solid #606060;
 	width: 120px;
 	height: 144px;
 	font-size: 36px;
-	font: Baloo;
-	text-align: center;
-	text-align-last: center;
-	display: inline-block;
-	margin: 17px;
+	font-family: "Baloo";
 	border-radius: 10px;
-	padding: 17px;
-	float: right;
+	padding-left: 17px;
+	margin: 17px;
+	display: inline-block;
 }
 
-label.clase2sm{
-	background-color: #f7fade;
+section.sectionsm{
+	float: right;
 }
 
 label.clase1sm{
 	background-color: #dfedd6;
+}
+
+label.clase2sm{
+	background-color: #f7fade;
 }

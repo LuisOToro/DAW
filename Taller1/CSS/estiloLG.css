@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+	
+}
+
+label.[class^="clase"]{
+	border: 2pt solid #606060;
+	width: 120px;
+	height: 120px;
+	font-size: 36px;
+	font: Baloo;
+	text-align: center;
+	text-align-last: center;
+	display: inline-block;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+
+label.clase2lg{
+	background-color: #f7fade;
+}
+
+label.clase1lg{
+	background-color: #dfedd6;
+}

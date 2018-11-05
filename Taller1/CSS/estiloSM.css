@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	
+}
+
+label.[class^="clase"]{
+	border: 2pt solid #606060;
+	width: 120px;
+	height: 144px;
+	font-size: 36px;
+	font: Baloo;
+	text-align: center;
+	text-align-last: center;
+	display: inline-block;
+	margin: 17px;
+	border-radius: 10px;
+	padding: 17px;
+	float: right;
+}
+
+label.clase2sm{
+	background-color: #f7fade;
+}
+
+label.clase1sm{
+	background-color: #dfedd6;
+}
